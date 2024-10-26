@@ -1,9 +1,4 @@
 [build]
-  publish = "public/cwebby"  # Adjust based on your actual publish directory
-  command = ""                # Leave empty if no build command is needed
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-  force = true
+  base = "."
+  publish = "cwebby"
+  command = ""
