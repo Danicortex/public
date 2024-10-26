@@ -1,0 +1,122 @@
+/* General reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav {
+    background: linear-gradient(90deg, #4CAF50, #2196F3);
+    color: white;
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.searchInput::placeholder {
+    color: #888;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.limitedOffer {
+    font-size: 18px;
+    background-color: #FF6347;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navBottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.menuItem {
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s;
+}
+
+.menuItem:hover {
+    color: #FF6347;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    background: #333;
+}
+
+.sliderWrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.sliderItem {
+    min-width: 100%;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.sliderItem img {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.sliderPrice {
+    font-size: 24px;
+    color: #ff6347;
+    margin-top: 5px;
+}
+
+.buyButton {
+    font-size: 18px;
+    color: white;
+    border: 2px solid #ff6347;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buyButton:hover {
+    background-color: #ff6347;
+    color: white;
+}
